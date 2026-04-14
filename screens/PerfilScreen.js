@@ -7,12 +7,12 @@ export default function PerfilScreen({ route, navigation }) {
   return (
     <View style={styles.container}>
       <View style={styles.content}>
-        <Text style={styles.titulo}>Perfil</Text>
+        <Text style={styles.titulo}>Perfil do aluno</Text>
         <Text style={styles.subtitulo}>Dados do aluno</Text>
 
         <View style={styles.card}>
           <Image
-            source={{ uri: "" }}
+            source={{ uri: "https://raw.githubusercontent.com/joaocaetano1310/Cp2_Mobile/main/assets/foto.jpg" }}
             style={styles.foto}
           />
 
